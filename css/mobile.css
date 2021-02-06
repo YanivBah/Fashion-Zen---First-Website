@@ -72,6 +72,7 @@
 @media only screen and (max-width: 680px) {
   .product-card {
     width: 150px;
+    justify-content: unset;
   }
   .product-card img {
     height: 16rem;
@@ -128,6 +129,9 @@
 @media only screen and (max-width: 440px) {
   .container {
     padding: 0;
+  }
+  #footer .container {
+    grid-template-columns: 1fr;
   }
 }
 
